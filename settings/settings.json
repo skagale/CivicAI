@@ -1,0 +1,35 @@
+{
+  "approval": {
+    "allowedExecutors": [
+      {
+        "toolId": "execute_command",
+        "approvedCommands": [
+          "cat",
+          "git diff",
+          "git log",
+          "git rev-parse",
+          "git show",
+          "git status",
+          "grep",
+          "head",
+          "tail",
+          "ls",
+          "sort",
+          "wc",
+          "which",
+          "du",
+          "df",
+          "cd \"c:\\Users\\Sanjay\\.bob\\playground\\civic-ai\""
+        ],
+        "deniedCommands": []
+      }
+    ],
+    "forbiddenApprovalGroups": []
+  },
+  "logging": {
+    "enableFileLogging": true
+  },
+  "migrations": {
+    "legacyBobCodeTaskMigrationDone": true
+  }
+}
