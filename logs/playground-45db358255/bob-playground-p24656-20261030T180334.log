@@ -1,0 +1,216 @@
+{"ts":"2026-10-30T12:33:34.954Z","level":"info","module":"RuntimeLogging","msg":"File logging enabled","data":{"logFilePath":"C:\\Users\\Sanjay\\.bob\\logs\\playground-45db358255\\bob-playground-p24656-20261030T180334.log"}}
+{"ts":"2026-10-30T12:33:34.955Z","level":"info","module":"Extension","msg":"Activating extension"}
+{"ts":"2026-10-30T12:33:34.982Z","level":"info","module":"Extension","msg":"Using translations: c:\\Users\\Sanjay\\AppData\\Local\\Programs\\IBM Bob\\resources\\app\\extensions\\bob-code\\dist\\translations (without updates)"}
+{"ts":"2026-10-30T12:33:34.985Z","level":"debug","module":"MCP","msg":"McpHub initialized","data":{"globalScopeRoot":"C:\\Users\\Sanjay\\.bob\\settings","globalConfigPath":"C:\\Users\\Sanjay\\.bob\\settings\\mcp.json"}}
+{"ts":"2026-10-30T12:33:34.985Z","level":"info","module":"PolicyService","msg":"Initialising policy watcher on platform \"win32\""}
+{"ts":"2026-10-30T12:33:34.989Z","level":"info","module":"PolicyService","msg":"Starting native policy watcher for product \"com.ibm.bob\""}
+{"ts":"2026-10-30T12:33:35.045Z","level":"debug","module":"Auth","msg":"Found stored tokens, checking expiry"}
+{"ts":"2026-10-30T12:33:35.045Z","level":"debug","module":"Auth","msg":"Auth state changed to","data":"authenticated"}
+{"ts":"2026-10-30T12:33:35.045Z","level":"debug","module":"Harness","msg":"Auth state changed","data":{"state":"authenticated"}}
+{"ts":"2026-10-30T12:33:35.046Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:33:35.046Z","level":"info","module":"Auth","msg":"Restored session from stored tokens"}
+{"ts":"2026-10-30T12:33:36.826Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/profile","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:37.891Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:33:37.981Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/profile","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:40.403Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:33:40.488Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/profile","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:40.492Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:33:40.500Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/inference/v1/model/info","bodySize":0}}
+{"ts":"2026-10-30T12:33:40.636Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/profile","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:42.129Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:33:42.186Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/profile","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:44.505Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:33:44.545Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/profile","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:44.551Z","level":"info","module":"BobHarness","msg":"Telemetry client registered: bob-bob -> https://api.us-east.bob.ibm.com"}
+{"ts":"2026-10-30T12:33:44.552Z","level":"info","module":"BobHarness","msg":"Telemetry initialized (bob-bob)"}
+{"ts":"2026-10-30T12:33:44.593Z","level":"debug","module":"MCP:ConfigManager","msg":"Setting up config file listeners"}
+{"ts":"2026-10-30T12:33:44.651Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/model/info","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:44.655Z","level":"debug","module":"SkillDirectoryWatcher","msg":"Registering dir watcher: root=c:\\Users\\Sanjay\\.bob\\playground\\.bob\\skills watchGlob=c:\\Users\\Sanjay\\.bob\\playground\\.bob\\skills/*"}
+{"ts":"2026-10-30T12:33:44.656Z","level":"debug","module":"SkillDirectoryWatcher","msg":"Registering dir watcher: root=c:\\Users\\Sanjay\\.bob\\playground\\.bob\\plugins\\*\\skills watchGlob=c:\\Users\\Sanjay\\.bob\\playground\\.bob\\plugins/*/skills/*"}
+{"ts":"2026-10-30T12:33:44.656Z","level":"debug","module":"SkillDirectoryWatcher","msg":"Registering dir watcher: root=c:\\Users\\Sanjay\\.bob\\playground\\.agents\\skills watchGlob=c:\\Users\\Sanjay\\.bob\\playground\\.agents\\skills/*"}
+{"ts":"2026-10-30T12:33:44.657Z","level":"debug","module":"SkillDirectoryWatcher","msg":"Registering dir watcher: root=c:\\Users\\Sanjay\\.bob\\playground\\.claude\\skills watchGlob=c:\\Users\\Sanjay\\.bob\\playground\\.claude\\skills/*"}
+{"ts":"2026-10-30T12:33:44.657Z","level":"debug","module":"SkillDirectoryWatcher","msg":"Registering dir watcher: root=C:\\Users\\Sanjay\\.bob\\skills watchGlob=C:\\Users\\Sanjay\\.bob\\skills/*"}
+{"ts":"2026-10-30T12:33:44.658Z","level":"debug","module":"SkillDirectoryWatcher","msg":"Registering dir watcher: root=C:\\Users\\Sanjay\\.bob\\plugins\\*\\skills watchGlob=C:\\Users\\Sanjay\\.bob\\plugins/*/skills/*"}
+{"ts":"2026-10-30T12:33:44.658Z","level":"debug","module":"SkillDirectoryWatcher","msg":"Registering dir watcher: root=C:\\Users\\Sanjay\\.agents\\skills watchGlob=C:\\Users\\Sanjay\\.agents\\skills/*"}
+{"ts":"2026-10-30T12:33:44.659Z","level":"debug","module":"SkillDirectoryWatcher","msg":"Registering dir watcher: root=C:\\Users\\Sanjay\\.agents\\plugins\\*\\skills watchGlob=C:\\Users\\Sanjay\\.agents\\plugins/*/skills/*"}
+{"ts":"2026-10-30T12:33:44.659Z","level":"debug","module":"SkillDirectoryWatcher","msg":"Registering dir watcher: root=C:\\Users\\Sanjay\\.claude\\skills watchGlob=C:\\Users\\Sanjay\\.claude\\skills/*"}
+{"ts":"2026-10-30T12:33:44.660Z","level":"debug","module":"SkillDirectoryWatcher","msg":"Registering dir watcher: root=C:\\Users\\Sanjay\\.claude\\plugins\\*\\skills watchGlob=C:\\Users\\Sanjay\\.claude\\plugins/*/skills/*"}
+{"ts":"2026-10-30T12:33:44.661Z","level":"debug","module":"PluginManager","msg":"Scanning global plugins dir: C:\\Users\\Sanjay\\.bob\\plugins"}
+{"ts":"2026-10-30T12:33:44.662Z","level":"debug","module":"PluginManager","msg":"Scanning workspace plugins dir: c:\\Users\\Sanjay\\.bob\\playground\\.bob\\plugins"}
+{"ts":"2026-10-30T12:33:44.662Z","level":"debug","module":"PluginManager","msg":"Scanning global plugins dir: C:\\Users\\Sanjay\\.bob\\plugins"}
+{"ts":"2026-10-30T12:33:44.662Z","level":"debug","module":"PluginManager","msg":"Scanning workspace plugins dir: c:\\Users\\Sanjay\\.bob\\playground\\.bob\\plugins"}
+{"ts":"2026-10-30T12:33:44.685Z","level":"info","module":"MCP:ConfigManager","msg":"Config file listeners initialized"}
+{"ts":"2026-10-30T12:33:44.686Z","level":"debug","module":"PluginManager","msg":"Scanning global plugins dir: C:\\Users\\Sanjay\\.bob\\plugins"}
+{"ts":"2026-10-30T12:33:44.686Z","level":"debug","module":"PluginManager","msg":"Scanning workspace plugins dir: c:\\Users\\Sanjay\\.bob\\playground\\.bob\\plugins"}
+{"ts":"2026-10-30T12:33:44.695Z","level":"info","module":"MCP","msg":"[playground] Initializing MCP for workspace","data":{"workspaceRoot":"c:\\Users\\Sanjay\\.bob\\playground","blockUntilReady":false}}
+{"ts":"2026-10-30T12:33:44.695Z","level":"debug","module":"MCP","msg":"Creating new workspace registry","data":{"workspaceRoot":"c:\\Users\\Sanjay\\.bob\\playground"}}
+{"ts":"2026-10-30T12:33:44.696Z","level":"debug","module":"MCP","msg":"Recalculated precedence","data":{"scopeRoot":"c:\\Users\\Sanjay\\.bob\\playground","totalServers":0,"activeServers":0}}
+{"ts":"2026-10-30T12:33:44.700Z","level":"debug","module":"MCP","msg":"Removed all global servers from deleted config","data":{"workspaceRoot":"c:\\Users\\Sanjay\\.bob\\playground","configPath":"C:\\Users\\Sanjay\\.bob\\settings\\mcp.json","removedCount":0}}
+{"ts":"2026-10-30T12:33:44.700Z","level":"debug","module":"MCP","msg":"Recalculated precedence","data":{"scopeRoot":"c:\\Users\\Sanjay\\.bob\\playground","totalServers":0,"activeServers":0}}
+{"ts":"2026-10-30T12:33:44.705Z","level":"debug","module":"MCP","msg":"Removed all workspace servers from deleted config","data":{"workspaceRoot":"c:\\Users\\Sanjay\\.bob\\playground","configPath":"c:\\Users\\Sanjay\\.bob\\playground\\.bob\\mcp.json","removedCount":0}}
+{"ts":"2026-10-30T12:33:44.706Z","level":"debug","module":"MCP","msg":"Recalculated precedence","data":{"scopeRoot":"c:\\Users\\Sanjay\\.bob\\playground","totalServers":0,"activeServers":0}}
+{"ts":"2026-10-30T12:33:44.706Z","level":"debug","module":"PluginManager","msg":"Scanning global plugins dir: C:\\Users\\Sanjay\\.bob\\plugins"}
+{"ts":"2026-10-30T12:33:44.706Z","level":"debug","module":"PluginManager","msg":"Scanning workspace plugins dir: c:\\Users\\Sanjay\\.bob\\playground\\.bob\\plugins"}
+{"ts":"2026-10-30T12:33:44.708Z","level":"debug","module":"MCP","msg":"[playground] No active servers for workspace","data":{"workspaceRoot":"c:\\Users\\Sanjay\\.bob\\playground"}}
+{"ts":"2026-10-30T12:33:44.710Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:33:44.857Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/profile","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:45.270Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/inference/v1/model/info","bodySize":0}}
+{"ts":"2026-10-30T12:33:46.144Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:33:46.244Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/profile","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:48.633Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:33:48.704Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/profile","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:48.705Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:33:48.815Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/model/info","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:48.817Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/profile","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:50.116Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/inference/v1/model/info","bodySize":0}}
+{"ts":"2026-10-30T12:33:50.243Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:33:50.310Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/profile","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:52.493Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:33:52.574Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/profile","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:52.574Z","level":"info","module":"Harness","msg":"BobHarness initialized"}
+{"ts":"2026-10-30T12:33:52.576Z","level":"info","module":"Extension","msg":"BobHarness initialized"}
+{"ts":"2026-10-30T12:33:52.576Z","level":"info","module":"Extension","msg":"Configuration initialized"}
+{"ts":"2026-10-30T12:33:52.576Z","level":"debug","module":"treeSitter","msg":"[TreeSitter] Starting initialization"}
+{"ts":"2026-10-30T12:33:52.577Z","level":"debug","module":"treeSitter","msg":"[TreeSitter] Production build detected, using wasmsDir: c:\\Users\\Sanjay\\AppData\\Local\\Programs\\IBM Bob\\resources\\app\\extensions\\bob-code\\dist"}
+{"ts":"2026-10-30T12:33:52.577Z","level":"debug","module":"treeSitter","msg":"[TreeSitter] Initialization complete"}
+{"ts":"2026-10-30T12:33:52.577Z","level":"info","module":"Extension","msg":"Congratulations, your extension \"IBM Bob\" is now active!"}
+{"ts":"2026-10-30T12:33:52.870Z","level":"info","module":"TaskStore","msg":"Task store opened","data":"C:\\Users\\Sanjay\\.bob\\db\\bob.db"}
+{"ts":"2026-10-30T12:33:52.963Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:33:52.964Z","level":"info","module":"source:bob","msg":"Pull Request Source initialised!"}
+{"ts":"2026-10-30T12:33:52.964Z","level":"info","module":"attribution: index","msg":"Attribution Source initialised!"}
+{"ts":"2026-10-30T12:33:52.993Z","level":"info","module":"attribution: index","msg":"Attribution store opened","data":{"path":"C:\\Users\\Sanjay\\.bob\\db\\bob.db"}}
+{"ts":"2026-10-30T12:33:52.994Z","level":"info","module":"attribution: index","msg":"Attribution Source ready - now tracking edit tool executions"}
+{"ts":"2026-10-30T12:33:52.994Z","level":"info","module":"source:review","msg":"Review source registered"}
+{"ts":"2026-10-30T12:33:52.995Z","level":"info","module":"source:review","msg":"Review source enabled"}
+{"ts":"2026-10-30T12:33:52.995Z","level":"info","module":"source:review","msg":"Review workflow registered"}
+{"ts":"2026-10-30T12:33:52.996Z","level":"info","module":"Extension","msg":"Extension activated"}
+{"ts":"2026-10-30T12:33:52.998Z","level":"info","module":"Extension","msg":"VS Code Git integrations initialized"}
+{"ts":"2026-10-30T12:33:53.127Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/model/info","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:53.133Z","level":"error","module":"Gateway","msg":"Request failed","data":{"path":"/profile","error":"TypeError: fetch failed"}}
+{"ts":"2026-10-30T12:33:54.004Z","level":"debug","module":"BobFindingsWebview","msg":"Sources changed, updating webview"}
+{"ts":"2026-10-30T12:33:54.006Z","level":"debug","module":"BobFindingsWebview","msg":"Sending 2 sources to webview:","data":["refactor","review"]}
+{"ts":"2026-10-30T12:33:54.175Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:33:54.360Z","level":"info","module":"Extension","msg":"Webview loaded"}
+{"ts":"2026-10-30T12:33:54.378Z","level":"info","module":"Extension","msg":"Feature flags received"}
+{"ts":"2026-10-30T12:33:54.621Z","level":"debug","module":"Gateway","msg":"Response received","data":{"status":200,"path":"/profile"}}
+{"ts":"2026-10-30T12:33:54.622Z","level":"debug","module":"Gateway","msg":"HTTP request complete","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","status":200,"elapsedMs":447}}
+{"ts":"2026-10-30T12:33:54.637Z","level":"debug","module":"DocSearch","msg":"Restarting DocSearch MCP session"}
+{"ts":"2026-10-30T12:33:54.638Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23","bodySize":0}}
+{"ts":"2026-10-30T12:33:54.640Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23","bodySize":0}}
+{"ts":"2026-10-30T12:33:54.680Z","level":"debug","module":"Gateway","msg":"HTTP request","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23","bodySize":0}}
+{"ts":"2026-10-30T12:33:54.709Z","level":"info","module":"Extension","msg":"ChatPage loaded"}
+{"ts":"2026-10-30T12:33:54.714Z","level":"debug","module":"ChatManager","msg":"Provider initialized for chat manager"}
+{"ts":"2026-10-30T12:33:54.714Z","level":"info","module":"ChatManager","msg":"Creating new task"}
+{"ts":"2026-10-30T12:33:54.723Z","level":"debug","module":"ChatManager","msg":"Task setup complete","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":"f1247492a0322b8d26e4b9eb3afc8fa6"}
+{"ts":"2026-10-30T12:33:54.737Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/inference/v1/model/info","bodySize":0}}
+{"ts":"2026-10-30T12:33:54.817Z","level":"info","module":"CommonViewController","msg":"Webview log:","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":"Received modes: Agent, Plan, Ask"}
+{"ts":"2026-10-30T12:33:54.821Z","level":"info","module":"CommonViewController","msg":"Webview log:","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":"Received modes: Agent, Plan, Ask"}
+{"ts":"2026-10-30T12:33:54.952Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":{"status":200,"path":"/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23"}}
+{"ts":"2026-10-30T12:33:54.953Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23","status":200,"elapsedMs":315}}
+{"ts":"2026-10-30T12:33:54.955Z","level":"debug","module":"Harness","msg":"Triggered Feature Flag Service update","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":{"ctx":"isIbmInternal","userId":"rkagale991@gmail.com","instance_id":"20261030-1029-5758-2181-742a7884aaf1","hasLegacyTeams":false,"userType":"external"}}
+{"ts":"2026-10-30T12:33:54.958Z","level":"info","module":"source:review","msg":"Review source enabled","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6"}
+{"ts":"2026-10-30T12:33:54.960Z","level":"info","module":"source:review","msg":"Review source enabled","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6"}
+{"ts":"2026-10-30T12:33:54.966Z","level":"info","module":"CommonViewController","msg":"Webview log:","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":"Feature flags received"}
+{"ts":"2026-10-30T12:33:54.967Z","level":"info","module":"CommonViewController","msg":"Webview log:","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":"Feature flags received"}
+{"ts":"2026-10-30T12:33:55.072Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":{"status":200,"path":"/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23"}}
+{"ts":"2026-10-30T12:33:55.072Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23","status":200,"elapsedMs":433}}
+{"ts":"2026-10-30T12:33:55.222Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":{"status":200,"path":"/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23"}}
+{"ts":"2026-10-30T12:33:55.223Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23","status":200,"elapsedMs":545}}
+{"ts":"2026-10-30T12:33:55.391Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":{"status":200,"path":"/model/info"}}
+{"ts":"2026-10-30T12:33:55.391Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/inference/v1/model/info","status":200,"elapsedMs":654}}
+{"ts":"2026-10-30T12:33:55.643Z","level":"debug","module":"BobFindingsWebview","msg":"Sources changed, updating webview","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6"}
+{"ts":"2026-10-30T12:33:55.643Z","level":"debug","module":"BobFindingsWebview","msg":"Sending 2 sources to webview:","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":["refactor","review"]}
+{"ts":"2026-10-30T12:33:55.686Z","level":"info","module":"CommonViewController","msg":"Webview log:","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":"Received modes: Agent, Plan, Ask"}
+{"ts":"2026-10-30T12:34:08.816Z","level":"warn","module":"gitCli","msg":"Git output exceeded the buffer limit and was truncated","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":{"args":["status","-z","-uall","--porcelain=v1"],"maxBuffer":10485760,"returnedChars":10485760}}
+{"ts":"2026-10-30T12:45:51.080Z","level":"debug","module":"ChatManager","msg":"Provider initialized for chat manager","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6"}
+{"ts":"2026-10-30T12:45:51.084Z","level":"info","module":"ChatManager","msg":"Creating new task","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6"}
+{"ts":"2026-10-30T12:45:51.129Z","level":"debug","module":"ChatManager","msg":"Task setup complete","taskId":"f1247492a0322b8d26e4b9eb3afc8fa6","data":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:45:51.285Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/inference/v1/model/info","bodySize":0}}
+{"ts":"2026-10-30T12:45:51.286Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:45:51.563Z","level":"info","module":"CommonViewController","msg":"Webview log:","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"Received modes: Agent, Plan, Ask"}
+{"ts":"2026-10-30T12:45:51.578Z","level":"info","module":"CommonViewController","msg":"Webview log:","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"Received modes: Agent, Plan, Ask"}
+{"ts":"2026-10-30T12:45:52.009Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/profile"}}
+{"ts":"2026-10-30T12:45:52.009Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","status":200,"elapsedMs":723}}
+{"ts":"2026-10-30T12:45:52.351Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/model/info"}}
+{"ts":"2026-10-30T12:45:52.351Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/inference/v1/model/info","status":200,"elapsedMs":1067}}
+{"ts":"2026-10-30T12:50:04.509Z","level":"debug","module":"RuleLoader","msg":"Rules: agents=false gCommon=0 wsCommon=0 gModes=0 wsModes=0","taskId":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:50:04.514Z","level":"debug","module":"ChatManager","msg":"Starting agent loop","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:50:04.584Z","level":"debug","module":"ChatManager","msg":"Task setup complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:50:04.655Z","level":"debug","module":"ChatManager","msg":"Task setup complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:50:04.766Z","level":"debug","module":"ChatManager","msg":"Task setup complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:50:04.833Z","level":"debug","module":"ChatManager","msg":"Task setup complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:50:04.879Z","level":"debug","module":"ChatManager","msg":"Task setup complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:50:05.092Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","bodySize":616524}}
+{"ts":"2026-10-30T12:50:09.789Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/chat/completions"}}
+{"ts":"2026-10-30T12:50:09.790Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","status":200,"elapsedMs":4697}}
+{"ts":"2026-10-30T12:50:19.695Z","level":"debug","module":"ChatManager","msg":"Tool invoked","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"read_file"}
+{"ts":"2026-10-30T12:50:19.910Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","bodySize":618499}}
+{"ts":"2026-10-30T12:50:24.353Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/chat/completions"}}
+{"ts":"2026-10-30T12:50:24.354Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","status":200,"elapsedMs":4445}}
+{"ts":"2026-10-30T12:50:26.634Z","level":"debug","module":"ChatManager","msg":"Tool invoked","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"read_file"}
+{"ts":"2026-10-30T12:50:26.908Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","bodySize":619202}}
+{"ts":"2026-10-30T12:50:29.486Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/chat/completions"}}
+{"ts":"2026-10-30T12:50:29.487Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","status":200,"elapsedMs":2579}}
+{"ts":"2026-10-30T12:50:35.519Z","level":"debug","module":"ChatManager","msg":"Tool invoked","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"apply_diff"}
+{"ts":"2026-10-30T12:50:39.666Z","level":"debug","module":"attribution: index","msg":"Bob made edits with the following tool: ","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"toolName":"apply_diff"}}
+{"ts":"2026-10-30T12:50:39.945Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","bodySize":621816}}
+{"ts":"2026-10-30T12:50:42.320Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/chat/completions"}}
+{"ts":"2026-10-30T12:50:42.320Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","status":200,"elapsedMs":2376}}
+{"ts":"2026-10-30T12:50:49.431Z","level":"debug","module":"ChatManager","msg":"Tool invoked","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"apply_diff"}
+{"ts":"2026-10-30T12:50:53.370Z","level":"debug","module":"attribution: index","msg":"Bob made edits with the following tool: ","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"toolName":"apply_diff"}}
+{"ts":"2026-10-30T12:50:53.586Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/inference/v1/model/info","bodySize":0}}
+{"ts":"2026-10-30T12:50:53.617Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:50:54.049Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/profile"}}
+{"ts":"2026-10-30T12:50:54.049Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","status":200,"elapsedMs":432}}
+{"ts":"2026-10-30T12:50:54.445Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/model/info"}}
+{"ts":"2026-10-30T12:50:54.445Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/inference/v1/model/info","status":200,"elapsedMs":860}}
+{"ts":"2026-10-30T12:50:54.516Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","bodySize":625917}}
+{"ts":"2026-10-30T12:50:57.698Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/chat/completions"}}
+{"ts":"2026-10-30T12:50:57.698Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","status":200,"elapsedMs":3182}}
+{"ts":"2026-10-30T12:51:01.492Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","bodySize":8262}}
+{"ts":"2026-10-30T12:51:03.460Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/chat/completions"}}
+{"ts":"2026-10-30T12:51:03.461Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","status":200,"elapsedMs":1969}}
+{"ts":"2026-10-30T12:51:03.469Z","level":"debug","module":"ChatManager","msg":"Tool invoked","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"execute_command"}
+{"ts":"2026-10-30T12:51:16.869Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","bodySize":626420}}
+{"ts":"2026-10-30T12:51:34.486Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/chat/completions"}}
+{"ts":"2026-10-30T12:51:34.487Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","status":200,"elapsedMs":17618}}
+{"ts":"2026-10-30T12:51:39.883Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","bodySize":8966}}
+{"ts":"2026-10-30T12:51:42.614Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/chat/completions"}}
+{"ts":"2026-10-30T12:51:42.615Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","status":200,"elapsedMs":2731}}
+{"ts":"2026-10-30T12:51:42.618Z","level":"debug","module":"ChatManager","msg":"Tool invoked","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"execute_command"}
+{"ts":"2026-10-30T12:51:46.562Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","bodySize":628346}}
+{"ts":"2026-10-30T12:51:57.915Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/chat/completions"}}
+{"ts":"2026-10-30T12:51:57.915Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","status":200,"elapsedMs":11353}}
+{"ts":"2026-10-30T12:52:00.564Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","bodySize":8213}}
+{"ts":"2026-10-30T12:52:02.421Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/chat/completions"}}
+{"ts":"2026-10-30T12:52:02.421Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","status":200,"elapsedMs":1858}}
+{"ts":"2026-10-30T12:52:02.424Z","level":"debug","module":"ChatManager","msg":"Tool invoked","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"execute_command"}
+{"ts":"2026-10-30T12:52:06.900Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","bodySize":629214}}
+{"ts":"2026-10-30T12:52:16.839Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/chat/completions"}}
+{"ts":"2026-10-30T12:52:16.839Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","status":200,"elapsedMs":9939}}
+{"ts":"2026-10-30T12:52:19.238Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","bodySize":8225}}
+{"ts":"2026-10-30T12:52:20.271Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/chat/completions"}}
+{"ts":"2026-10-30T12:52:20.271Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","status":200,"elapsedMs":1033}}
+{"ts":"2026-10-30T12:52:20.274Z","level":"debug","module":"ChatManager","msg":"Tool invoked","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"execute_command"}
+{"ts":"2026-10-30T12:52:21.153Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","bodySize":630196}}
+{"ts":"2026-10-30T12:52:30.261Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/chat/completions"}}
+{"ts":"2026-10-30T12:52:30.261Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"POST","url":"https://api.us-east.bob.ibm.com/inference/v1/chat/completions","status":200,"elapsedMs":9108}}
+{"ts":"2026-10-30T12:52:34.749Z","level":"debug","module":"ChatManager","msg":"Task setup complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:52:34.805Z","level":"debug","module":"ChatManager","msg":"Task setup complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:52:34.849Z","level":"debug","module":"ChatManager","msg":"Task setup complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:52:34.889Z","level":"debug","module":"ChatManager","msg":"Task setup complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:52:34.935Z","level":"debug","module":"ChatManager","msg":"Task setup complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:52:34.986Z","level":"debug","module":"ChatManager","msg":"Task setup complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:52:34.991Z","level":"debug","module":"ChatManager","msg":"Agent loop completed","taskId":"2857d9c623fcffc146cb58c094112e0b","data":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T12:59:25.611Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","bodySize":0}}
+{"ts":"2026-10-30T12:59:26.822Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/profile"}}
+{"ts":"2026-10-30T12:59:26.822Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/profile","status":200,"elapsedMs":1211}}
+{"ts":"2026-10-30T12:59:26.825Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23","bodySize":0}}
+{"ts":"2026-10-30T12:59:26.826Z","level":"debug","module":"Gateway","msg":"HTTP request","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23","bodySize":0}}
+{"ts":"2026-10-30T12:59:27.689Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23"}}
+{"ts":"2026-10-30T12:59:27.689Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23","status":200,"elapsedMs":864}}
+{"ts":"2026-10-30T12:59:27.869Z","level":"debug","module":"Gateway","msg":"Response received","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"status":200,"path":"/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23"}}
+{"ts":"2026-10-30T12:59:27.869Z","level":"debug","module":"Gateway","msg":"HTTP request complete","taskId":"2857d9c623fcffc146cb58c094112e0b","data":{"method":"GET","url":"https://api.us-east.bob.ibm.com/admin/v1/teams/01a18c5b-f280-78b6-a0b0-96032cd15cee/users/01a18c5b-f292-7a3c-9b94-45d96735fe23","status":200,"elapsedMs":1043}}
+{"ts":"2026-10-30T13:03:58.670Z","level":"info","module":"Extension","msg":"Extension deactivating","taskId":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T13:03:58.670Z","level":"info","module":"TaskManager","msg":"Running task cleanup","taskId":"2857d9c623fcffc146cb58c094112e0b"}
+{"ts":"2026-10-30T13:03:58.671Z","level":"debug","module":"authToken","msg":"Disposing BobAuthenticationProvider","taskId":"2857d9c623fcffc146cb58c094112e0b"}
